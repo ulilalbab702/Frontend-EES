@@ -1,0 +1,26 @@
+.mainContainer {
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  width: 30vw;
+  border-radius: 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  margin-left: 50%;
+  background: rgba(207, 245, 231, 0.59);
+  border-radius: 15px;
+}
+.btn {
+  background-color: #59c1bd;
+  color: #e9ecef;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.mainContainer img {
+  width: 171.43px;
+  height: 160px;
+  left: 260px;
+  top: 115px;
+}

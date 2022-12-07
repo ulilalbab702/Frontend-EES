@@ -1,0 +1,15 @@
+.questionpage {
+  position: absolute;
+  width: 557px;
+  height: auto;
+  left: 490px;
+  top: 67px;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  box-shadow: 9px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.selected{
+  background-color: cornflowerblue;
+  box-shadow: inset 0 0 0 4px cornflowerblue;
+}
