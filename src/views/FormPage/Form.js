@@ -100,7 +100,7 @@ export default function Form(props) {
             {errors.mobile?.type === "maxLength" && "Max Length Exceed"}
             <button
               className="btn"
-              onClick={() => (window.location.href = "/quest")}
+              onClick={() => (window.location.href = "/questionpage")}
             >
               Continue
             </button>

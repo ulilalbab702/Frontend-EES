@@ -24,7 +24,7 @@ const LandingPage = () => {
     <div className="landingpage">
       <div className="mainContainer">
         <img src={logo} alt="" />
-        <div className="text" style={{ margin: '3rem 0 2rem 0' }}>Welcome to EES</div>
+        <div className="title" style={{ margin: '3rem 0 2rem 0' }}>Welcome to EES</div>
 
         <button onClick={() => (window.location.href = "/Form")} className="btn" >
           Start Survey

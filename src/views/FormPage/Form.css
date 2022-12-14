@@ -5,6 +5,7 @@
   align-items: center;
   text-align: center;
   font-family: 'Poppins';
+
 }
 .register {
   margin: auto;
@@ -19,6 +20,7 @@
 
 .register span {
   color: #adb5bd;
+  margin-top: 10px;
 }
 
 #form {
@@ -39,7 +41,7 @@
 }
 
 #form > .btn {
-  background-color: #0D4C92;
+  background-color: #59c1bd;
   color: #e9ecef;
   font-size: 1em;
   cursor: pointer;
@@ -57,6 +59,8 @@
 .register .col-1 {
   margin: auto;
   padding: 3em 0;
+  /* padding-bottom: 3em 0; */
+  /* margin-bottom: 25px; */
 }
 
 .register .col-2 img {
@@ -78,5 +82,39 @@
 @media screen and (min-width: 860px) {
   .register .col-2 img {
     display: initial;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .register{
+    /* padding-left: 70px;
+    padding-right: 70px; */
+    right: 75px;
+    left: 75px;
+    width: 75%;
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #form > input, .btn {
+    width: 75%;
+    margin: auto;
+  }
+
+  .register {
+    width: 90%;
+    margin: auto;
+    height: 800px;
+  }
+
+  .selected {
+    width: 84%;
+    margin: auto;
+    background-color: #fff
+  }
+
+  .select {
+    width: 84%;
+    margin: auto;
   }
 }

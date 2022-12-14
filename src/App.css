@@ -22,6 +22,7 @@ body {
   width: 100%;
   height: 100vh;
   padding-top: 4%; 
+  padding-bottom: 7%;
   object-fit: cover;
 }
 .App-header {
@@ -67,12 +68,4 @@ body {
     font-size: small;
   }
 }
-@media only screen and (min-width: 360px) {
-  .mainContainer {
-    width: 80vw;
-    height: 90vh;
-  }
-  h4 {
-    font-size: small;
-  }
-}
+
